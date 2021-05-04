@@ -68,24 +68,35 @@ header li :hover {
   margin: auto;
 }
 
-.firstArt {
+.Art {
   margin-top: 20px;
   color: #2d2c30;
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.firstArt h3{
+.Art h3{
 margin-top: 15px;
 
+
 }
+
+.Art p{
+  margin-bottom: 20px;
+}
+
 .content{
   border: 2.5px solid black;
   padding: 1%;
+  display: flex;
+  flex-direction:column;
+  
   
 }
-.content ul{
+
+.content ul li{
   margin-left: 20%;
+  margin-bottom: 15%;
 }
 
 .quote {
@@ -95,7 +106,16 @@ margin-top: 15px;
   padding-top: 2%;
   padding-left: 30%;
   padding-right: 30%;
-  padding-bottom: 2%;
+  
+  background-color: #2d2c30;
+  color: #f4ecf2;
+}
+
+.by{
+    font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-style: italic;
+  
   background-color: #2d2c30;
   color: #f4ecf2;
 }

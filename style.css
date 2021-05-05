@@ -3,7 +3,13 @@
   padding: 0;
 }
 
-
+ li{
+  list-style: none;
+}
+.question{
+  text-align: center;
+  margin:2%;
+}
 header {
   text-align: center;
   background-color: #23bc23;
@@ -95,8 +101,10 @@ margin-top: 15px;
 }
 
 .content ul li{
-  margin-left: 20%;
+  text-align: center;
+  
   margin-bottom: 15%;
+  margin-top: 30%;
 }
 
 .quote {
@@ -118,6 +126,22 @@ margin-top: 15px;
   
   background-color: #2d2c30;
   color: #f4ecf2;
+  padding-bottom: 1%;
+}
+
+.block{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.blockContainer ul li{
+  text-align: center;
+}
+.blockContainer{
+width: 50%;
+padding: 1%;
+flex: 300px;
+border: 5px black solid;
 }
 
 footer {

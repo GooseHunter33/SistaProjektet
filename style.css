@@ -79,6 +79,7 @@ header li :hover {
   color: #2d2c30;
   margin-left: 10%;
   margin-right: 10%;
+  
 }
 
 .Art h3{
@@ -139,6 +140,7 @@ color: #787955 ;
   background-color: #2d2c30;
   color: #f4ecf2;
   padding-bottom: 1%;
+  
 }
 
 .block{
@@ -148,21 +150,26 @@ flex-wrap: wrap;
 }
 .blockContainer ul li{
   text-align: center;
+  margin-top: 25px;
+  font-size: 210%;
 }
 .blockContainer{
 width: 50%;
 padding: 1%;
 flex: 300px;
-border: 5px black solid;
+margin-left: 50px;
+margin-right: 50px;
 }
-
+.middle{
+  text-align: center;
+}
 footer {
   background-color: #23bc23;
-  margin-top: 200px;
+  margin-top: 0px;
   display: grid;
   grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  border-top: black 2.5px solid;
+  
 }
 
 .start {
@@ -193,6 +200,7 @@ footer {
 @media (max-width: 600px){
   header{
     font-size: 10px;
+    padding: 10px;
   }
   .quote{
     font-size: 20px;
@@ -205,6 +213,13 @@ footer {
   text-align: justify;
   
   }
+
+.content{
+  font-size: 25px;
+  padding: 5%;
+
+}
+
 .start {
   grid-column: 2;
   grid-row: 3;

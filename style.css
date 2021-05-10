@@ -164,6 +164,16 @@ margin-right: 50px;
 .middle{
   text-align: center;
 }
+.contact{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact ul li{
+  font-size: 150%;
+font-style:italic;
+margin-top: 15px;
+margin-bottom: 25px;
+}
 footer {
   background-color: #23bc23;
   margin-top: 0px;
@@ -176,6 +186,8 @@ footer a{
   text-decoration: underline;
   color: gainsboro;
 }
+
+
 
 .start {
   grid-column: 2;
